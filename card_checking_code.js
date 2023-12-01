@@ -87,6 +87,8 @@ const idInvalidCardCompanies = (arr) => {
   return companies;
 };
 
+// Creating a function that turns strings into arrays of numbers
+
 const turnStringIntoArray = (string) => {
   return string.split('').map(Number);
 }
